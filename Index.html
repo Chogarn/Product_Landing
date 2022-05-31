@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Document</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="/fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Trocchi&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">        
+        <div class="logo">
+            <img src="imagenes/logo.png" id="header-img">
+            <p>Sand & Shell Travels</p>
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li >
+                    <a class="nav-link" href="#features">Servicios</a>
+                </li>
+                <li >
+                    <a class="nav-link" href="#video">Destinos</a>
+                </li>
+                <li >
+                    <a class="nav-link" href="#pricing">Ofertas</a>
+                </li>
+            </ul>       
+        </nav>  
+    </header>
+
+    <main>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <h2>Travels to the places of  your dreams</h2>
+            <p>Send us an email to get alerted of new promotions every week</p>
+            <div>
+                <input type="email" id="email" placeholder="Enter your email" name="email" required>
+            </div>
+            <div>
+                <input type="submit" id="submit" name="submit"></input>
+            </div>
+
+        </form>
+
+        <section id="features">
+            <div class="featureDiv">
+                <div class="featureIcon">
+                    <i class="fa fa-4x fa-umbrella-beach"></i>
+                </div>
+                <div class="featureDetails">
+                    <h2>Paradise Islands</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel quam eget libero mattis finibus sit amet nec enim. Quisque venenatis porttitor tellus in facilisis.</p>
+                </div>
+            </div>
+            <div class="featureDiv">
+                <div class="featureIcon">
+                    <i class="fa-solid fa-4x fa-hotel"></i>
+                </div>
+                <div  class="featureDetails">
+                    <h2>Best Hotels</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel quam eget libero mattis finibus sit amet nec enim. Quisque venenatis porttitor tellus in facilisis.</p>
+                </div>
+            </div>
+            <div class="featureDiv">
+                <div class="featureIcon">
+                    <i class="fa-solid fa-4x fa-plane"></i>
+                </div>
+                <div  class="featureDetails">
+                    <h2>Flights & Transportation</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel quam eget libero mattis finibus sit amet nec enim. Quisque venenatis porttitor tellus in facilisis.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="videoDiv">
+            <iframe id="video" width="640" height="360" src="https://www.youtube.com/embed/cUrboDG8zYg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+        </section>
+        
+
+        <section id="pricing">
+            <div class="carta">
+                <div class="cartaNombre">
+                    <p>Maldivas</p>
+                </div>
+                <div class="cartaDetalle">
+                    <h3>$ 4500</h3>
+                    <br>
+                    <p>All meals included</p>
+                    <p>All transportations includeds</p>
+                    <p>2 Days</p>
+                </div>
+                <div class="cartaBotonDiv">
+                    <button class="cartaBoton">Buy Now</button>
+                </div>
+
+            </div>
+            <div class="carta">
+                <div class="cartaNombre">
+                    <p>Bora Bora</p>
+                </div>
+                <div class="cartaDetalle">
+                    <h3>$ 3800</h3>
+                    <br>
+                    <p>Breakfast Included</p>
+                    <p>All transportations includeds</p>
+                    <p>3 days Stay.</p>
+                </div>
+                <div class="cartaBotonDiv">
+                    <button class="cartaBoton">Buy Now</button>
+                </div>
+            </div>
+            <div class="carta">
+                <div class="cartaNombre">
+                    <p>Zanzíbar</p>
+                </div>
+                <div class="cartaDetalle">
+                    <h3>$ 3200</h3>
+                    <br>
+                    <p>Breakfast Included</p>
+                    <p>All transportations includeds</p>
+                    <p>3 days Stay.</p>
+                </div>
+                <div class="cartaBotonDiv">
+                    <button class="cartaBoton">Buy Now</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <ul class="contactoFooter">
+            <li class="listaFooter">
+                <a href="#">Privacy Polices</a>
+            </li>
+            <li class="listaFooter">
+                <a href="#">Terms & Conditions</a>
+            </li>
+            <li class="listaFooter">
+                <a href="#form">Contact Us</a>
+            </li>
+        </ul>
+        <div class="terminos">
+            <p><span>Copyright 2022, Sand & Shells Travels</span></p>
+        </div>
+    </footer>
+</body>
+</html>
